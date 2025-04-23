@@ -12,7 +12,7 @@ services:
   discovery-server:
     enabled: true
     image:
-      repository: 22127475/spring-petclinic-discovery-service
+      repository: 22127475/spring-petclinic-discovery-server
       tag: latest
     port: 8761
   api-gateway:
