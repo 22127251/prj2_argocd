@@ -10,43 +10,43 @@ services:
       tag: latest
     port: 8888
   discovery-server:
-    enabled: true
+    enabled: false
     image:
       repository: 22127475/spring-petclinic-discovery-server
       tag: latest
     port: 8761
   api-gateway:
-    enabled: true
+    enabled: false
     image:
       repository: 22127475/spring-petclinic-api-gateway
       tag: latest
     port: 8085
   customers-service:
-    enabled: true
+    enabled: false
     image:
       repository: 22127475/spring-petclinic-customers-service
       tag: latest
     port: 8081
   visits-service:
-    enabled: true
+    enabled: false
     image:
       repository: 22127475/spring-petclinic-visits-service
       tag: latest
     port: 8882
   vets-service:
-    enabled: true
+    enabled: false
     image:
       repository: 22127475/spring-petclinic-vets-service
       tag: db4e01fb3d950271c084a4c32b02c2fe02f88c2b
     port: 8883
   genai-service:
-    enabled: true
+    enabled: false
     image:
       repository: 22127475/spring-petclinic-genai-service
       tag: latest
     port: 8884
   admin-server:
-    enabled: true
+    enabled: false
     image:
       repository: 22127475/spring-petclinic-admin-server
       tag: latest
