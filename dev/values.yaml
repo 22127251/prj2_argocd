@@ -9,7 +9,7 @@ services:
       repository: 22127475/spring-petclinic-config-server
       tag: latest
     port: 8888
-  discovery-service:
+  discovery-server:
     enabled: true
     image:
       repository: 22127475/spring-petclinic-discovery-service
